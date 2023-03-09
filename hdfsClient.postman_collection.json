@@ -1,0 +1,115 @@
+{
+	"info": {
+		"_postman_id": "189fcccb-51ae-4b79-9237-8f9f39ec0be8",
+		"name": "hdfsClient",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "put",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/wzh/Desktop/test2"
+						},
+						{
+							"key": "path",
+							"value": "/test56",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{PRODUCT_URL}}/put",
+					"host": [
+						"{{PRODUCT_URL}}"
+					],
+					"path": [
+						"put"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "download",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{PRODUCT_URL}}/download?path=/test56",
+					"host": [
+						"{{PRODUCT_URL}}"
+					],
+					"path": [
+						"download"
+					],
+					"query": [
+						{
+							"key": "path",
+							"value": "/test56"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{PRODUCT_URL}}/delete?path=/test56",
+					"host": [
+						"{{PRODUCT_URL}}"
+					],
+					"path": [
+						"delete"
+					],
+					"query": [
+						{
+							"key": "path",
+							"value": "/test56"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ls",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{PRODUCT_URL}}/ls?path=/",
+					"host": [
+						"{{PRODUCT_URL}}"
+					],
+					"path": [
+						"ls"
+					],
+					"query": [
+						{
+							"key": "path",
+							"value": "/"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
