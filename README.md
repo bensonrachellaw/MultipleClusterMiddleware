@@ -1,7 +1,7 @@
 # MultipleClusterMiddleware
 MultipleClusterMiddleware Project
 
-# Cross-data centre collaborative parallel computing architecture and MultipleClusterMiddleware：
+# Cross data-centre collaborative parallel computing architecture and MultipleClusterMiddleware：
 
 The computing architecture supports efficient collaborative analysis of big data in multiple geographically isolated data centres. 
 
