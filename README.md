@@ -1,5 +1,5 @@
 # MultipleClusterMiddleware
-MultipleClusterMiddleware Project
+MultipleClusterMiddleware Project based on the existing RSP(Random Sample Partition) big data technology.
 
 # Cross data-centre collaborative parallel computing architecture and MultipleClusterMiddleware：
 
